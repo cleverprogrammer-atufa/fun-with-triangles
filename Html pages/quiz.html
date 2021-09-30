@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Quiz</title>
+<link href="../styles/style.css" rel="stylesheet" type="text/css" />
+ <!--  box icon link -->
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<div class="main-container">
+		<i class="fas fa-bars"  id="open-nav-bar"></i>
+        <header>
+            <nav>
+                <h1>Learn Triangles</h1>
+                <div class="nav-links-container" id="nav-bar">
+                    <i class="fas fa-times" id="close-nav-bar"></i>
+                    <ul>
+                        <li><a href="../index.html" class="nav-links">Home</a></li>
+                        <li><a href="./isTriangle.html" class="nav-links">IsTriangle</a></li>
+                        <li><a href="./quiz.html" class="nav-links active">Quiz</a></li>
+                        <li><a href="./hypotenuse.html" class="nav-links">Hypotenuse</a></li>
+                        <li><a href="./area.html" class="nav-links">Area</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+            <section>
+                <div class="sub-container">
+                    <h2>Lets test your knowledge on triangles.</h2>
+                    <p>There is a total of 10 questions.Each question carries 10 points each.<br>The score is calculated only if all the questions are checked.</p>
+                    <form class ="triangle-quiz">
+
+                        <div class="question-container">
+                            <p>What is the third angle for the triangle where angle1 = 45° and
+                                angle2 = 45°?</p>
+                           <label><input type="radio" class="secondary-input" name="question1" value="45°">&nbsp&nbsp45°</label> 
+                           <label><input type="radio" class="secondary-input" name="question1" value="90°">&nbsp&nbsp90°</label>
+                           <label><input type="radio" class="secondary-input" name="question1" value="60°">&nbsp&nbsp60°</label>
+                        </div>
+                      
+
+                        <div class="question-container">
+                            <p>Which of the following angles form an isosceles triangle? </p>
+                           <label><input type="radio" class="secondary-input" name="question2" value="40°, 110°, 30°">&nbsp&nbsp40°, 110°, 30° </label> 
+                           <label><input type="radio" class="secondary-input" name="question2" value="90°, 60°, 30°">&nbsp&nbsp90°, 60°, 30°</label>
+                           <label><input type="radio" class="secondary-input" name="question2" value="70°, 40°, 70°">&nbsp&nbsp70°, 40°, 70°</label>
+                        </div>
+                      
+
+                        <div class="question-container">
+                            <p>Which of the following angles form an equilateral triangle?</p>
+                           <label><input type="radio" class="secondary-input" name="question3" value="45°, 45°, 90°">&nbsp&nbsp45°, 45°, 90°</label> 
+                           <label><input type="radio" class="secondary-input" name="question3" value="80°, 120°, 70°">&nbsp&nbsp80°, 120°, 70°</label>
+                           <label><input type="radio" class="secondary-input" name="question3" value="60°, 60°, 60°">&nbsp&nbsp60°, 60°, 60°</label>
+                        </div>
+                  
+                        <div class="question-container">
+                            <p>If the sum of two angles of a triangle is 140°, what is the third angle?</p>
+                           <label><input type="radio" class="secondary-input" name="question4" value="40°">&nbsp&nbsp40°</label> 
+                           <label><input type="radio" class="secondary-input" name="question4" value="30°">&nbsp&nbsp30°</label>
+                           <label><input type="radio" class="secondary-input" name="question4" value="45°">&nbsp&nbsp45°</label>
+                        </div>
+
+                        <div class="question-container">
+                            <p>If one angle of a triangle is 90°, then it is known as</p>
+                           <label><input type="radio" class="secondary-input" name="question5" value="Scalene triangle">&nbsp&nbspScalene triangle</label> 
+                           <label><input type="radio" class="secondary-input" name="question5" value="Isosceles triangle">&nbsp&nbspIsosceles triangle </label>
+                           <label><input type="radio" class="secondary-input" name="question5" value="Right angled triangle">&nbsp&nbspRight angled triangle</label>
+                        </div>
+
+                        <div class="question-container">
+                            <p>Which of the following sides form a right angled triangle?</p>
+                           <label><input type="radio" class="secondary-input" name="question6" value="3,4,5">&nbsp&nbsp3,4,5</label> 
+                           <label><input type="radio" class="secondary-input" name="question6" value="2,8,4">&nbsp&nbsp2,8,4</label>
+                           <label><input type="radio" class="secondary-input" name="question6" value="12,10,18">&nbsp&nbsp12,10,18</label>
+                        </div>
+
+                        <div class="question-container">
+                            <p>If one angle of a triangle is obtuse, then which one of the following is the possible measure of remaining angles?</p>
+                           <label><input type="radio" class="secondary-input" name="question7" value="100°">&nbsp&nbsp100°</label> 
+                           <label><input type="radio" class="secondary-input" name="question7" value="85°">&nbsp&nbsp85°</label>
+                           <label><input type="radio" class="secondary-input" name="question7" value="35°">&nbsp&nbsp35°</label>
+                        </div>
+
+                        <div class="question-container">
+                            <p>If the largest angle in a triangle is 80°, what is the least
+                                possible value of the smallest angle of the triangle?</p>
+                           <label><input type="radio" class="secondary-input" name="question8" value="15°">&nbsp&nbsp15°</label> 
+                           <label><input type="radio" class="secondary-input" name="question8" value="10°">&nbsp&nbsp10°</label>
+                           <label><input type="radio" class="secondary-input" name="question8" value="30°">&nbsp&nbsp30°</label>
+                        </div>
+
+                        <div class="question-container">
+                            <p>The perimeter of scalene triangle with sides a, b, c is</p>
+                           <label><input type="radio" class="secondary-input" name="question9" value="a + b + c">&nbsp&nbspa + b + c</label> 
+                           <label><input type="radio" class="secondary-input" name="question9" value="2a">&nbsp&nbsp2a</label>
+                           <label><input type="radio" class="secondary-input" name="question9" value="None of these">&nbsp&nbspNone of these</label>
+                        </div>
+
+                        <div class="question-container">
+                            <p>There is a right triangle PQR where: angle Q = 90°; angle P = angle
+                                R. What is the measure of angles P and R?</p>
+                           <label><input type="radio" class="secondary-input" name="question10" value="85°">&nbsp&nbsp85°</label> 
+                           <label><input type="radio" class="secondary-input" name="question10" value="65°">&nbsp&nbsp65°</label>
+                           <label><input type="radio" class="secondary-input" name="question10" value="45°">&nbsp&nbsp45°</label>
+                        </div>
+                        
+                   
+                </form>
+                    <button id="check-btn" class="primary-btn">Submit</button>
+                    <div class="output-div" id="output">
+                        <div></div>
+                    </div>
+
+                    
+                    
+                </div>
+    
+            </section>
+             <footer>
+ <div class="footer__social__media">
+                <ul class="social-links">
+                    <li class="list-item"><a href="https://www.instagram.com/code_with_mee/" class="footer__social" target="_blank">
+                            <i class="bx bxl-instagram">instagram</i></a></li>
+                    <li class="list-item"> <a href="https://twitter.com/ShamsiAtufa" class="footer__social" target="_blank"><i
+                                class="bx bxl-twitter">twitter</i>
+                        </a></li>
+                    <li class="list-item"><a href="https://www.linkedin.com/in/atufa-shamsi-9a514a1b6/"
+                            class="footer__social" target="_blank"><i class="bx bxl-linkedin">linkedIn</i></a></li>
+                  
+                </ul>
+
+            </div>
+</footer>
+            
+
+             </div>
+
+
+
+    <script src="../scripts/quiz.js"></script> 
+    <script src="../scripts/util.js"></script>
+
+</body>
+
+</html>
